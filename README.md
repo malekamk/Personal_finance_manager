@@ -4,7 +4,7 @@
 
 Personal Finance Manager is a command-line application that helps you track, manage, and visualize your expenses. It allows you to add expenses, generate reports, view monthly summaries, and plot expense data. This tool is designed to help you manage your finances effectively by providing insightful summaries and visualizations of your spending patterns.
 
-![Expense Visualization](images/expenses_by_category.png)  <!-- Image added here -->
+![Expense Visualization](expenses_by_category.png)  <!-- Image added here -->
 
 ## Features
 

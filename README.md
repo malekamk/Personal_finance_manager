@@ -17,7 +17,19 @@ Personal Finance Manager is a command-line application that helps you track, man
 
 To get started with the Personal Finance Manager, follow these steps:
 
-...
+### Prerequisites
+
+- Python 3.x
+- `matplotlib` library
+- `json` library (included with Python standard library)
+
+### Installation
+
+1. **Clone the Repository:**
+
+   ```bash
+git clone https://github.com/malekamk/Personal_finance_manager.git
+
 
 ### Example
 
@@ -27,7 +39,7 @@ Here’s an example of how to add expenses and generate a report:
 from finance_manager import FinanceManager
 
 manager = FinanceManager()
-manager.add_expense(50, 'Food', 'Grocery shopping')
-manager.add_expense(20, 'Entertainment', 'Movie ticket')
+manager.add_expense(1200, 'Food', 'Grocery shopping')
+manager.add_expense(3000, 'Garments', 'sneakers')
 print(manager.generate_report())
 manager.plot_expenses()
